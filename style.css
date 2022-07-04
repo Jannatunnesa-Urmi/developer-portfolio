@@ -6,11 +6,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 p{
     color: dimgray;
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -27,7 +31,7 @@ p{
 .hero h1 span{
     color:orange;
 }
-.hero a{
+.hero a ,.dream-section a{
     text-decoration: none;
     font-weight: 700;
     background: linear-gradient(45deg, lightsalmon, tomato);
@@ -36,6 +40,9 @@ p{
     color: white;
     
 }
-.hero p{
+.hero p, .dream-section p{
     margin-bottom: 40px;
+}
+.dream-section img{
+    width: 90%;
 }
